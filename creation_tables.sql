@@ -50,7 +50,7 @@ CREATE TABLE Clients (
 );
 
 CREATE TABLE Promotions (
-    code            TEXT NOT NULL,
+	code            TEXT NOT NULL,
 	nom_parfum      TEXT NOT NULL,
 	CONSTRAINT pk_promotions_k0 PRIMARY KEY (code)
 );
@@ -58,7 +58,7 @@ CREATE TABLE Promotions (
 CREATE TABLE Stocks (
 	code_magasin    INTEGER NOT NULL,
 	nom_parfum      TEXT NOT NULL,
-    volume_parfum   INTEGER NOT NULL,
+	volume_parfum   INTEGER NOT NULL,
 	quantite        INTEGER NOT NULL,
 	CONSTRAINT pk_stocks_k0 PRIMARY KEY (code_magasin, nom_parfum, volume_parfum),
 	CONSTRAINT fk_stocks_f0 FOREIGN KEY (code_magasin) REFERENCES Magasins(code),
@@ -77,9 +77,9 @@ CREATE TABLE Frequentes (
 );
 
 CREATE TABLE Validites (
-    nom_parfum        TEXT NOT NULL ,
-    volume_parfum     INTEGER NOT NULL,
-    code_promotion    INTEGER NOT NULL,
+	nom_parfum        TEXT NOT NULL ,
+	volume_parfum     INTEGER NOT NULL,
+	code_promotion    INTEGER NOT NULL,
 	pourcentage       INTEGER NOT NULL,
 	valide_jusqua     DATE NOT NULL,
 	CONSTRAINT pk_validites_k0 PRIMARY KEY (nom_parfum),
