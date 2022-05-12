@@ -39,23 +39,20 @@ INSERT INTO Marques VALUES ('Lancôme', 'adrs-3', '0956231741', -1);
 INSERT INTO Parfums VALUES ('Absolu');
 
 -- Erreur : parfum déjà existant
-INSERT INTO Parfums VALUES ('La Petite Robe Noire', 'Guerlain', 149.99);
+INSERT INTO Parfums VALUES ('La Petite Robe Noire', 'Guerlain');
 
 -- Erreur : parfum sans nom
-INSERT INTO Parfums VALUES (NULL, 'Guerlain', 149.99);
+INSERT INTO Parfums VALUES (NULL, 'Guerlain');
 
 -- Erreur : parfum sans nom marque
-INSERT INTO Parfums VALUES ('La Petite Robe Noire', NULL, 149.99);
+INSERT INTO Parfums VALUES ('La Petite Robe Noire', NULL);
 
--- Erreur : parfum sans prix
-INSERT INTO Parfums VALUES ('La Petite Robe Noire', 'Guerlain', NULL);
-
--- Erreur :  prix moins ou égale à 0
-INSERT INTO Parfums VALUES ('La Vie est belle', 'Lancôme',-2);
-INSERT INTO Parfums VALUES ('La Vie est belle', 'Lancôme', 0);
+-- -- Erreur :  prix moins ou égale à 0
+-- INSERT INTO Parfums VALUES ('La Vie est belle', 'Lancôme',-2);
+-- INSERT INTO Parfums VALUES ('La Vie est belle', 'Lancôme', 0);
 
 -- Erreur : marque inconnu (mal reference)
-INSERT INTO Parfums VALUES ('Mon Guerlain', 'Awod', 99.99);
+INSERT INTO Parfums VALUES ('Mon Guerlain', 'Awod');
 
 --*-*-*-*-*-*-*-*-*-*- INSERNT NOT OK FOR CLIENTS TABLE *-*-*-*-*-*-*-*-*-*--
 -- Manques de valeurs
@@ -82,31 +79,31 @@ INSERT INTO Promotions VALUES ('QSDFG', 'Mon Guerlain');
 
 --*-*-*-*-*-*-*-*-*-*- INSERNT NOT OK FOR STOCKS TABLE *-*-*-*-*-*-*-*-*-*--
 -- Erreur : Stocks sans code magasin
-INSERT INTO Stocks VALUES (null, 'Absolu', 50, 03);
+INSERT INTO Stocks VALUES (null, 'Absolu', 50, 03, 149.99);
 
 -- Erreur : code magasin (primary key) existant
-INSERT INTO Stocks VALUES (01, 'La Vie est belle',100, 200);
+INSERT INTO Stocks VALUES (01, 'La Vie est belle',100, 200, 149.99);
 
 -- Erreur : nom parfum null
 INSERT INTO Stocks VALUES (02, null,200, 10);
 
 -- Erreur : nom parfum (primary key) existant
-INSERT INTO Stocks VALUES (10, 'La Petite Robe Noire',500, 01);
+INSERT INTO Stocks VALUES (10, 'La Petite Robe Noire',500, 01, 149.99);
 
 -- Erreur : volume null
-INSERT INTO Stocks VALUES (09, 'Flower',null, 50);
+INSERT INTO Stocks VALUES (09, 'Flower',null, 50, 149.99);
 
 -- Erreur : volume (primary key) existant
-INSERT INTO Stocks VALUES (09, 'Chloé Signatur',100, 20);
+INSERT INTO Stocks VALUES (09, 'Chloé Signatur',100, 20, 149.99);
 
 -- Erreur : volume n'est pas dans ENUM TypeVolume {50,100,200,500}
-INSERT INTO Stocks VALUES (09, 'Chloé Signatur',888, 20);
+INSERT INTO Stocks VALUES (09, 'Chloé Signatur',888, 20, 149.99);
 
 -- Erreur : code magasin inconnu (mal reference)
-INSERT INTO Stocks VALUES (99, 'Shalimar',200, 999); -- A VOR
+INSERT INTO Stocks VALUES (99, 'Shalimar',200, 999, 149.99);
 
 -- Erreur : parfumn inconnu (mal reference)
-INSERT INTO Stocks VALUES (02, 'for test',500, 02); -- A VOIR
+INSERT INTO Stocks VALUES (02, 'for test',500, 02, 149.99);
 
 --*-*-*-*-*-*-*-*-*-*- INSERNT NOT OK FOR FREQUENTES TABLE *-*-*-*-*-*-*-*-*-*--
 -- Erreur : code Magasin OU nom client OU prenom client (primary key) sont nulls

@@ -1,22 +1,7 @@
 #!/usr/bin/python3
 
 from utils import db
-
-
-def select_tous_les_bateaux(conn):
-    """
-    Affiche la liste de tous les bateaux.
-
-    :param conn: Connexion à la base de données
-    """
-    cur = conn.cursor()
-    cur.execute("SELECT * FROM Magasins")
-
-    rows = cur.fetchall()
-
-    for row in rows:
-        print(row)
-
+from reqeutes import *
 
 def main():
     # Nom de la BD à créer
@@ -27,13 +12,12 @@ def main():
 
     # Remplir la BD
     print("1. On crée la bd et on l'initialise avec des premières valeurs.")
-    db.mise_a_jour_bd(conn, "data/creation_tables.sql")
+
+    db.mise_a_jour_bd(conn, 'data/creation_tables.sql')
+
     db.mise_a_jour_bd(conn, "data/insert_ok.sql")
 
-    # Lire la BD
-    print("2. Liste de tous les bateaux")
-    select_tous_les_bateaux(conn)
-
+    affichage(conn)
 
 if __name__ == "__main__":
     main()
