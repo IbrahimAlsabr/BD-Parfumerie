@@ -138,11 +138,14 @@ https://www.jetbrains.com/pycharm/
 Pour faire la liaison entre PyCharm et Python:
 
 Add Configuration:
-![config1](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm1.PNG?raw=true")
+![config1](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm1.PNG?raw=true") <hr>
+
 Add New Configuration -> Python:
-![config2](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm2.PNG?raw=true")
+![config2](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm2.PNG?raw=true") <hr>
+
 Pointer vers main.py:
-![config3](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm3.PNG?raw=true")
+![config3](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm3.PNG?raw=true") <hr>
+
 Clicker sur Play pour exécuter le programme:
 ![config4](https://github.com/IbrahimAlsabr/BD-Parfumerie/blob/main/doc/img/config_pycharm4.PNG?raw=true")
 
