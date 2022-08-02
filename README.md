@@ -138,6 +138,7 @@ https://www.jetbrains.com/pycharm/
 Pour faire la liaison entre PyCharm et Python:
 
 Add Configuration:
+<<<<<<< HEAD
 ![config1](/doc/img/config_pycharm1.png?raw=true")
 Add New Configuration -> Python:
 ![config2](/doc/img/config_pycharm2.png?raw=true")
@@ -145,6 +146,15 @@ Pointer vers main.py:
 ![config3](/doc/img/config_pycharm3.png?raw=true")
 Clicker sur Play pour exécuter le programme:
 ![config4](/doc/img/config_pycharm4.png?raw=true")
+=======
+![config1](doc/img/config_pycharm1.png)
+Add New Configuration -> Python:
+![config2](doc/img/config_pycharm2.png)
+Pointer vers main.py:
+![config3](doc/img/config_pycharm3.png)
+Clicker sur Play pour exécuter le programme:
+![config4](doc/img/config_pycharm4.png)
+>>>>>>> 71480542d3ce5dd9e27e949d7abb26616ce6e0e4
 
 ## Notre Travail
 
