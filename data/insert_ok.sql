@@ -26,6 +26,8 @@ INSERT INTO Magasins VALUES (07, '53 Grande Rue 61000');
 INSERT INTO Magasins VALUES (08, '5 Rue Docteur Serres 30100');
 INSERT INTO Magasins VALUES (09, '65 Rue Carnot 74000');
 INSERT INTO Magasins VALUES (10, '07 Rue Docteur Ibrahim 38400');
+
+
 --
 -- --*-*-*-*-*-*-*-*-*-*- INSERNT INTO MARQUES TABLE *-*-*-*-*-*-*-*-*-*--
 INSERT INTO Marques VALUES ('Rochas', 'adrs-1', '0456231782', 3);
@@ -146,7 +148,11 @@ INSERT INTO Validites VALUES ('Shalimar',100,  'RFGHJ', 20, '02-02-2023');
 INSERT INTO Validites VALUES ('Miss Dior',50 ,'UIERS', 40, '02-02-2023');
 INSERT INTO Validites VALUES ('Black Opium', 100, 'UIERS', 30, '02-02-2023');
 INSERT INTO Validites VALUES ('Armani', 50, 'AQSET', 20,'02-02-2023');
-INSERT INTO Validites VALUES ('Poison', 50, 'MKSAE', 20,'2022-05-12');
+INSERT INTO Validites VALUES ('Poison', 50, 'MKSAE', 20,'2021-05-12');
 
 
+DELETE FROM Validites
+WHERE valide_jusqua > date('now');
+
+SELECT * FROM Validites;
 

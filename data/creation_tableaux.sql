@@ -54,7 +54,7 @@ CREATE TABLE Promotions (
 
 CREATE TABLE Stocks (
 	code_magasin    INTEGER NOT NULL,
-	nom_parfum      TEXT NOT NULL,
+    nom_parfum      TEXT NOT NULL,
 	volume_parfum   INTEGER NOT NULL,
 	quantite        INTEGER NOT NULL,
 	prix            REAL NOT NULL,
