@@ -160,7 +160,7 @@ Dans ce fichier [insert_ok.sql](/data/insert_ok.sql) on a testé la base de donn
 
 Et ici dans ce fichier [insert_not_ok.sql](/data/insert_not_ok.sql), on a testé la base de données crées en insérant des données incorrectement, pour vérifier que les contraintes imopsées sont bien respectées. 
 
-Après lier notre base de données avec Python, dans ce fichier [reqeutes.py](/reqeutes.py) on a fait des requetes en les écrivant dans des fonctions qui sont être appelées dans ce fichier [main.py](/main.py).
+Après lier notre base de données avec Python, dans ce fichier [reqeutes.py](/reqeutes.py) on a fait des requetes en les écrivant dans des fonctions qui sont appelées dans ce fichier [main.py](/main.py).
 
 Ici, dans ce fichier [update_donnee.py](/update_donnee.py) , on a créé des requetes dans des fonctions pour mettre la possibilité de mettre à jour les données à travers Python. 
 
