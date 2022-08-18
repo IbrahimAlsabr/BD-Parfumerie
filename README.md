@@ -11,21 +11,16 @@ Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informa
 - [Installation de l'environnement](#installation-de-l'environnement)
     - [Windows](#windows)
     - [Linux](#linux)
-
 - [Préparation du projet](#préparation-du-projet)
-
 - [Utilisation](#utilisation)
     - [Utilisation non-interactive](#utilisation-non-interactive)
     - [Utilisation interactive](#utilisation-interactive)
     - [Utilisation d'un IDE](#utilisation-d'un-ide)
-
 - [Notre Travail](#notre-travail)
   - [Autour Fichiers](#autour-fichiers)
   - [Créer avec](#créer-avec)
   - [Resources et outils utiles](#resources-et-outils-utiles)
-
 - [Author](#author)
-
 - [Acknowledgments](#acknowledgments)
 
 
