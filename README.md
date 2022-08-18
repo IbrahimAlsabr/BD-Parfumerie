@@ -7,7 +7,6 @@ Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informa
     - [problématique](problématique)
     - [Modèle UML](#modèle-uml)
     - [Modèle Relationnel](#links)
-
 - [Installation de l'environnement](#installation-de-l'environnement)
     - [Windows](#windows)
     - [Linux](#linux)
@@ -22,7 +21,6 @@ Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informa
   - [Resources et outils utiles](#resources-et-outils-utiles)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
 
 ## Aperçu
 ### problématique
