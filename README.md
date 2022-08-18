@@ -4,7 +4,7 @@ Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informa
 
 ## Tableau De Contenu
 - [Aperçu](#aperçu)
-    - [problématique](problématique)
+    - [Problématique](problématique)
     - [Modèle UML](#modèle-uml)
     - [Modèle Relationnel](#links)
 - [Installation de l'environnement](#installation-de-l'environnement)
@@ -23,7 +23,7 @@ Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informa
 - [Acknowledgments](#acknowledgments)
 
 ## Aperçu
-### problématique
+### Problématique
 Une haute entreprise de commerce de parfums a informatisé ses données :
 produits en stock, magasins, clients, promotions, etc. La base de données a été
 construite sous la forme suivante :<br>
