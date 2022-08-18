@@ -177,7 +177,7 @@ Ici, dans ce fichier [update_donnee.py](/update_donnee.py) , on a créé des req
 
 <b>Bastien Riado </b>
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]((https://github.com/bastien-riado) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]() [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]() <br> 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bastien-riado)
 
 ## Acknowledgments
 * [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/)
