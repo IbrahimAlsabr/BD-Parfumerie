@@ -54,7 +54,7 @@ CREATE TABLE Promotions (
 
 CREATE TABLE Stocks (
 	code_magasin    INTEGER NOT NULL,
-    nom_parfum      TEXT NOT NULL,
+    	nom_parfum      TEXT NOT NULL,
 	volume_parfum   INTEGER NOT NULL,
 	quantite        INTEGER NOT NULL,
 	prix            REAL NOT NULL,
@@ -87,6 +87,3 @@ CREATE TABLE Validites (
 	CONSTRAINT ck_volume_c1 CHECK (volume_parfum IN (50, 100, 200, 500))
     --CONSTRAINT ck_date_c0 CHECK (DATE('now') <= valide_jusqua) --- A VOIR !!
 );
-
-INSERT INTO Magasins VALUES (01, '24 pl Halles, 67000 Strasbourg');
-INSERT INTO Magasins VALUES (02, 'Grand Place - 38100 Grenoble');
